@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Smoke Test"  parallel="false" preserve-order="true" verbose="2">
+    <test name="Test 1">
+        <classes>
+            <class name="Teller.Tellerwebapp.publicrejectsurvey"></class>
+        </classes>
+    </test>
+    <test name="Test 2">
+        <classes>
+            <class name="Teller.Tellerwebapp.scheduleprivatesurvey"></class>
+        </classes>
+    </test>
+    <test name="Test 3 ">
+        <classes>
+            <class name="Teller.Tellerwebapp.normalprivatesurvey"></class>
+        </classes>
+    </test>
+</suite>

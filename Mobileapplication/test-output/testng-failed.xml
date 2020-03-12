@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="newpom.homepage"/>
+      <class name="Appium.Mobileapplication.androidcloud"/>
+      <class name="newpom.activesurveypage"/>
+      <class name="Appium.Mobileapplication.demochrome"/>
+      <class name="Appium.Mobileapplication.demo"/>
+      <class name="Appium.Mobileapplication.Tellerdemo"/>
+      <class name="Appium.Mobileapplication.login"/>
+      <class name="Appium.Mobileapplication.Tellertestcases"/>
+      <class name="newpom.demobasic"/>
+      <class name="Appium.Mobileapplication.chromebrowser"/>
+      <class name="Appium.Mobileapplication.Annotations"/>
+      <class name="newpom.basics"/>
+      <class name="Appium.Mobileapplication.testngframework"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Appium.Mobileapplication.testngframework">
+        <methods>
+          <include name="login"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Appium.Mobileapplication.testngframework -->
+      <class name="Appium.Mobileapplication.Annotations">
+        <methods>
+          <include name="Cookies"/>
+          <include name="Reportadding"/>
+          <include name="UseridGeneration"/>
+          <include name="Cookiesclose"/>
+        </methods>
+      </class> <!-- Appium.Mobileapplication.Annotations -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

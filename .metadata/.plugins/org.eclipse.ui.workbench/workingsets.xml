@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1582108646201_1" label="seleniumautomation" name="seleniumautomation">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/RemoteSystemsTempFiles" type="4"/>
+<item elementID="=Land" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Restassured" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/api" type="4"/>
+<item elementID="=Tellerwebapp" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Webservicesapi" type="4"/>
+<item elementID="=Testenvironmentteller" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Clinique" type="4"/>
+<item elementID="=Restassuredproject" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Mobileapplication" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Tellerpom" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Automation" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/KEYWORDDRIVEN" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1582108691450_2" label="resource" name="resource">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/RemoteSystemsTempFiles" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Land" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Restassured" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/api" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Tellerwebapp" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Webservicesapi" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Testenvironmentteller" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Clinique" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Restassuredproject" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Mobileapplication" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Tellerpom" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Automation" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/KEYWORDDRIVEN" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1572350900601_0" label="Window Working Set" name="Aggregate for window 1571722995133"/>
+<mruList name="resource"/>
+<mruList name="seleniumautomation"/>
+</workingSetManager>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Testenvironmentteller/Testngteller.xml&apos; to &apos;Testteller.xml&apos;" description="Rename resource &apos;Testngteller.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Testngteller.xml" name="Testteller.xml" stamp="1572002170877" updateReferences="true"/>
+</session>

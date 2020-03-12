@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test]">
+  <test name="Test1">
+    <packages>
+      <package name="POMTeller.Tellerpom"/>
+    </packages>
+    <classes>
+      <class name="POMTeller.Tellerpom.Tellerfactory123"/>
+      <class name="POMTeller.Tellerpom.App"/>
+    </classes>
+  </test> <!-- Test1 -->
+  <test name="Test1(failed)">
+    <classes>
+      <class name="POMTeller.Tellerpom.Tellerfactory123">
+        <methods>
+          <include name="addrespondentflow"/>
+          <include name="createquestions"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- POMTeller.Tellerpom.Tellerfactory123 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Test] -->

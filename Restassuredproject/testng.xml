@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="APISuite" parallel="methods">
+  <test thread-count="5" name="APITest1">
+  <listeners>
+  <listener class-name="Project.Restassuredproject.utils.RestListeners"/>
+  </listeners>
+    <classes>
+      <class name="Project.Restassuredproject.base.Base"/>
+     
+      <class name="Project.Restassuredproject.testcases.Testcases"/>
+      <class name="Project.Restassuredproject.testcases.Putmethod"/>
+      <class name="Project.Restassuredproject.testcases.Deletemethod"/>
+         
+    </classes>
+  </test> 
+</suite> 

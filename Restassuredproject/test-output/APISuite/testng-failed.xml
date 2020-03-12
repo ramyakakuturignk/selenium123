@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [APISuite]" parallel="methods">
+  <test thread-count="5" name="APITest1">
+    <classes>
+      <class name="Project.Restassuredproject.base.Base"/>
+      <class name="Project.Restassuredproject.testcases.Testcases"/>
+      <class name="Project.Restassuredproject.testcases.Putmethod"/>
+      <class name="Project.Restassuredproject.testcases.Deletemethod"/>
+    </classes>
+  </test> <!-- APITest1 -->
+  <test name="APITest1(failed)" parallel="methods">
+    <classes>
+      <class name="Project.Restassuredproject.testcases.Testcases">
+        <methods>
+          <include name="checkStatusCode"/>
+          <include name="tearDown"/>
+          <include name="getAllsurvey"/>
+        </methods>
+      </class> <!-- Project.Restassuredproject.testcases.Testcases -->
+      <class name="Project.Restassuredproject.testcases.Deletemethod">
+        <methods>
+          <include name="checkStatusCode"/>
+          <include name="getAllsurvey"/>
+        </methods>
+      </class> <!-- Project.Restassuredproject.testcases.Deletemethod -->
+    </classes>
+  </test> <!-- APITest1(failed) -->
+</suite> <!-- Failed suite [APISuite] -->

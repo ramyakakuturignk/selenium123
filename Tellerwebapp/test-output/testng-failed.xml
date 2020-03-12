@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [Smoke Test]">
+  <test name="Test 1">
+    <classes>
+      <class name="Teller.Tellerwebapp.publicrejectsurvey"/>
+    </classes>
+  </test> <!-- Test 1 -->
+  <test name="Test 2">
+    <classes>
+      <class name="Teller.Tellerwebapp.scheduleprivatesurvey"/>
+    </classes>
+  </test> <!-- Test 2 -->
+  <test name="Test 3 ">
+    <classes>
+      <class name="Teller.Tellerwebapp.normalprivatesurvey"/>
+    </classes>
+  </test> <!-- Test 3  -->
+  <test name="Test 1(failed)">
+    <classes>
+      <class name="Teller.Tellerwebapp.normalprivatesurvey">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Teller.Tellerwebapp.normalprivatesurvey -->
+      <class name="Teller.Tellerwebapp.scheduleprivatesurvey">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Teller.Tellerwebapp.scheduleprivatesurvey -->
+      <class name="Teller.Tellerwebapp.publicrejectsurvey">
+        <methods>
+          <include name="Tellerlogin31"/>
+          <include name="Tellerlogin2"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Teller.Tellerwebapp.publicrejectsurvey -->
+    </classes>
+  </test> <!-- Test 1(failed) -->
+  <test name="Test 2(failed)">
+    <classes>
+      <class name="Teller.Tellerwebapp.normalprivatesurvey">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Teller.Tellerwebapp.normalprivatesurvey -->
+      <class name="Teller.Tellerwebapp.scheduleprivatesurvey">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="Tellerlogin4"/>
+          <include name="Tellerlogin5"/>
+        </methods>
+      </class> <!-- Teller.Tellerwebapp.scheduleprivatesurvey -->
+      <class name="Teller.Tellerwebapp.publicrejectsurvey">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Teller.Tellerwebapp.publicrejectsurvey -->
+    </classes>
+  </test> <!-- Test 2(failed) -->
+  <test name="Test 3 (failed)">
+    <classes>
+      <class name="Teller.Tellerwebapp.normalprivatesurvey">
+        <methods>
+          <include name="Tellerlogin1"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Teller.Tellerwebapp.normalprivatesurvey -->
+      <class name="Teller.Tellerwebapp.scheduleprivatesurvey">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Teller.Tellerwebapp.scheduleprivatesurvey -->
+      <class name="Teller.Tellerwebapp.publicrejectsurvey">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Teller.Tellerwebapp.publicrejectsurvey -->
+    </classes>
+  </test> <!-- Test 3 (failed) -->
+</suite> <!-- Failed suite [Smoke Test] -->
